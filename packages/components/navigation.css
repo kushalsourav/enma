@@ -1,0 +1,91 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-title {
+    font-size: 2.5rem;
+    font-family: monospace;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: var(--color-primary);
+}
+
+.navbar>.form-control {
+    width: 300px;
+}
+
+.navbar>.form-control>.input {
+    padding: 8px;
+}
+
+.navbar>.form-control>.input-icon+.input {
+    padding-left: 2rem;
+}
+
+.navbar-components {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-list {
+    display: flex;
+    margin: 0 2rem;
+}
+
+.navbar-items {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: initial;
+}
+
+.navbar-icon {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar-icon i {
+    color: var(--color-primary);
+}
+
+.navbar-button {
+    padding: 5px 2rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    background-color: var(--white);
+    border: 2px solid var(--color-primary);
+    font-weight: 600;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 100%;
+}
+
+.submenu-content .navbar-item {
+    border-bottom: 1px solid #333;
+}
+
+.submenu:hover .submenu-content {
+    display: block;
+}

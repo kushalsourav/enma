@@ -2,3 +2,20 @@
 @import 'components/avatar.css';
 @import 'components/badge.css';
 @import 'components/button.css';
+@import 'components/navigation.css';
+@import 'components/typography.css';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #3b82f6;
+    --color-secondary: ;
+    --color-tertiary: ;
+    --color-danger: ;
+    --color-warning: ;
+    --color-success: ;
+    --color-white: ;
+}

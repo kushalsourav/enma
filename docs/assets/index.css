@@ -1,1 +1,98 @@
 @import '../../packages/index.css';
+body {
+    height: 100vh;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container {
+    overflow-y: scroll;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px repeat(3, 1fr);
+    grid-template-areas: "nav nav nav nav" "main main main main" "main main main main" "main main main main";
+}
+
+.navbar {
+    grid-area: nav;
+    border-bottom: 2px solid var(--color-primary);
+    padding: 0 3rem;
+}
+
+.main {
+    grid-area: main;
+}
+
+
+/*  documentation */
+
+.documentation {
+    margin: 3.125rem;
+    padding: 1.25rem;
+}
+
+.docs-header {
+    margin: 0.625rem;
+}
+
+.docs-title {
+    text-transform: capitalize;
+    margin: 0.625rem 0;
+}
+
+.docs-about {
+    margin: 0.625rem 0;
+}
+
+.docs-info {
+    margin: 2rem 0.625rem;
+}
+
+.docs-type {
+    margin: 0.625rem 0;
+}
+
+.docs-explanation {
+    margin: 0.625rem 0;
+}
+
+.docs-example {
+    margin-top: 3rem;
+    width: 100%;
+    padding: 1.25rem;
+    border: 1px solid var(--color-primary);
+    height: auto;
+}
+
+.flex-row {
+    display: flex;
+    gap: 2rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.docs-code {
+    margin-top: 3rem;
+    width: 100%;
+    padding: 1.2rem;
+    height: 300px;
+    border: 1px solid var(--color-primary);
+}
+
+@media(max-width: 500px) {
+    .documentation {
+        margin: 0;
+        padding: 0.625rem;
+    }
+    .navbar {
+        padding: 0 1rem;
+    }
+    .navbar-list {
+        display: none;
+    }
+}
