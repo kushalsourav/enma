@@ -2,7 +2,7 @@
 body {
     height: 100vh;
     overflow: hidden;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -39,6 +39,7 @@ body {
 .docs-title {
     text-transform: capitalize;
     margin: 0.625rem 0;
+    color: var(--color-dark);
 }
 
 .docs-about {
@@ -51,10 +52,14 @@ body {
 
 .docs-type {
     margin: 0.625rem 0;
+    font-weight: 400;
+    color: var(--color-dark);
+    font-family: monospace;
 }
 
 .docs-explanation {
     margin: 0.625rem 0;
+    word-spacing: 0.09em;
 }
 
 .docs-example {
@@ -65,9 +70,19 @@ body {
     height: auto;
 }
 
+.code-snippet {
+    width: 100%;
+    height: 15.625rem;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
+}
+
 .flex-row {
     display: flex;
     gap: 2rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .flex-column {
@@ -80,7 +95,7 @@ body {
     margin-top: 3rem;
     width: 100%;
     padding: 1.2rem;
-    height: 300px;
+    height: auto;
     border: 1px solid var(--color-primary);
 }
 
@@ -94,5 +109,11 @@ body {
     }
     .navbar-list {
         display: none;
+    }
+    .docs-example {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
