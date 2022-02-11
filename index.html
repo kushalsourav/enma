@@ -8,7 +8,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/630f3095fb.js" crossorigin="anonymous"></script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:ital,wght@0,300;1,400&family=Zen+Kurenaido&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./docs/assets/index.css">
 </head>
 
@@ -25,8 +27,8 @@
                         <div class="submenu-content">
                             <ul class="text-center">
                                 <li class="navbar-item"><a href="#alert" class="navbar-link">Alert</a></li>
-                                <li class="navbar-item"><a href="#avatar " class="navbar-link">Avatar</a></li>
-                                <li class="navbar-item"><a href="#badges " class="navbar-link">Badge</a></li>
+                                <li class="navbar-item"><a href="#avatar" class="navbar-link">Avatar</a></li>
+                                <li class="navbar-item"><a href="#badge" class="navbar-link">Badge</a></li>
                                 <li class="navbar-item"><a href="#button" class="navbar-link">Button</a></li>
                                 <li class="navbar-item"><a href="#cards" class="navbar-link">Card</a></li>
                                 <li class="navbar-item"><a href="#image" class="navbar-link">Image</a></li>
@@ -60,8 +62,195 @@
             </div>
         </nav>
         <section class="main">
+            <section id="avatar">
+                <div class="documentation">
+                    <div class="docs-header">
+                        <div class="docs-title">
+                            <h1>Avatar</h1>
+                        </div>
+                        <div class="docs-about">
+                            <p class="text-tertiary">Avatars allow people to represent themselves online in whatever way they want.</p>
+                        </div>
+                    </div>
+                    <div class="docs-info">
+                        <div class="docs-type">
+                            <h2 class="">Example of Image Avatar </h2>
+                        </div>
+                        <div class="docs-explanation">
+                            <p class="text-quaternary">
+                                Avatars are available in 4 formats - primary , secondary , tertiary and quaternary. <br>To use this avatar you have to include these classes <span class="text-highlight">avatar</span> followed by
+                                <span class="text-highlight">avatar-primary</span>
+                                <span class="text-highlight">avatar-secondary</span> <span class="text-highlight">avatar-tertiary</span>
+                                <span class="text-highlight">avatar-quaternary</span> and also you have to add class
+                                <span class="text-highlight">img-responsive</span>
+                                <span class="text-highlight">img-round</span> for avatar with images.
+                            </p>
+                        </div>
+                        <div class="docs-example flex-row">
+                            <div class="avatar avatar-primary">
+                                <img src="./docs/assets/avatar.png" alt="avatar-primary" class="img-responsive img-round">
+                            </div>
+                            <div class="avatar avatar-secondary">
+                                <img src="./docs/assets/avatar.png" alt="avatar-secondary" class="img-responsive img-round">
+                            </div>
+                            <div class="avatar avatar-tertiary">
+                                <img src="./docs/assets/avatar.png" alt="avatar-tertiary" class="img-responsive img-round">
+                            </div>
+                            <div class="avatar avatar-quaternary">
+                                <img src="./docs/assets/avatar.png" alt="avatar-quaternary" class="img-responsive img-round">
+                            </div>
+                        </div>
+                        <div class="docs-code">
+                            <iframe src="https://carbon.now.sh/embed/SRep0M8ZFZ16GTkWvFnL" class="code-snippet" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="docs-info">
+                        <div class="docs-type">
+                            <h2 class="">Example of Text Avatar </h2>
+                        </div>
+                        <div class="docs-explanation">
+                            <p class="text-quaternary">
+                                Text Avatars are available in 4 formats - primary , secondary , tertiary and quaternary. <br>It is same as avatars with image you just need to add this class <span class="text-highlight">avatar-text</span> to position the
+                                text in center.
+                            </p>
+                        </div>
+                        <div class="docs-example flex-row">
+                            <div class="avatar avatar-text avatar-primary ">
+                                AB
+                            </div>
+                            <div class="avatar avatar-text avatar-secondary ">
+                                AB
+                            </div>
+                            <div class="avatar avatar-text avatar-tertiary ">
+                                AB
+                            </div>
+                            <div class="avatar avatar-text avatar-quaternary ">
+                                AB
+                            </div>
 
+                        </div>
+                        <div class="docs-code">
+                            <iframe src="https://carbon.now.sh/embed/j7gYIqMjHfH1oc91rHmy" class="code-snippet" sandbox="allow-scripts allow-same-origin">
+                              </iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="badge">
+                <div class="documentation">
+                    <div class="docs-header">
+                        <div class="docs-title">
+                            <h1>Badge</h1>
+                        </div>
+                        <div class="docs-about">
+                            <p class="text-tertiary">Badges are displayed on components and icons on your Home screen to notify you of something new in a component.</p>
+                        </div>
+                    </div>
+                    <div class="docs-info">
+                        <div class="docs-type">
+                            <h2 class="">Example of Badge over avatar and icon. </h2>
+                        </div>
+                        <div class="docs-explanation">
+                            <p class="text-quaternary">
+                                We have two type of badges here badge over avatar and icon.
+                                <br>To use this badge over avatar you have to include these classes <span class="text-highlight">badge</span> followed by
+                                <span class="text-highlight">status</span> and for types
+                                <span class="text-highlight">status-online</span> <span class="text-highlight">status-away</span>
+                                <span class="text-highlight">status-away</span>.
+                                <br>
+                            </p>
+                        </div>
+                        <div class="docs-example flex-row">
+                            <div class="badge">
+                                <div class="avatar avatar-primary">
+                                    <img src="./docs/assets/avatar.png" alt="avatar-primary" class="img-responsive img-round">
+                                    <span class="status status-online"></span>
+                                </div>
+                            </div>
+                            <div class="badge">
+                                <div class="avatar avatar-secondary">
+                                    <img src="./docs/assets/avatar.png" alt="avatar-secondary" class="img-responsive img-round">
+                                    <span class="status status-offline"></span>
+                                </div>
+                            </div>
+                            <div class="badge">
+                                <div class="avatar avatar-tertiary">
+                                    <img src="./docs/assets/avatar.png" alt="avatar-tertiary" class="img-responsive img-round">
+                                    <span class="status status-away"></span>
+                                </div>
+                            </div>
+                            <div class="badge">
+                                <div class="avatar avatar-quaternary">
+                                    <img src="./docs/assets/avatar.png" alt="avatar-quaternary" class="img-responsive img-round">
+                                    <span class="status status-online"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="docs-code">
+                            <iframe src="https://carbon.now.sh/embed/4akcmhKwwkDZjvwztUuN" class="code-snippet" sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </div>
+                    </div>
+                    <div class="docs-info">
+                        <div class="docs-type">
+                            <h2 class="">Example of Text Badge </h2>
+                        </div>
+                        <div class="docs-explanation">
+                            <p class="text-quaternary">
+                                <br>To use this badge over avatar you have to include these classes <span class="text-highlight">badge</span> followed by
+                                <span class="text-highlight">badge-primary</span>
+                                <span class="text-highlight">badge-secondary</span> <span class="text-highlight">badge-tertiary</span>
+                                <span class="text-highlight">badge-quaternary</span>.
+                                <br>
+                                <span class="text-highlight">badge class is used for positioning you must include it</span>
+                            </p>
+                        </div>
+                        <div class="docs-example flex-column">
 
+                            <h2 class="badge heading-secondary">Heading with Badge <span class="badge-primary">New</span></h2>
+                            <h3 class="badge heading-tertiary">Heading with Badge <span class="badge-secondary">New</span></h3>
+                            <h4 class="badge heading-quaternary">Heading with Badge <span class="badge-tertiary">New</span></h4>
+                            <p class="badge text-primary">Text with Badge <span class="badge-round">New</span></p>
+                        </div>
+                        <div class="docs-code">
+                            <iframe src="https://carbon.now.sh/embed/eBMrAt0W9ZHrxpXf5IuV" class="code-snippet" sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </div>
+                    </div>
+                    <div class="docs-info">
+                        <div class="docs-type">
+                            <h2 class="">Example of icon Badge </h2>
+                        </div>
+                        <div class="docs-explanation">
+                            <p class="text-quaternary">
+                                <br>To use this badge over icons you have to include these classes <span class="text-highlight">badge</span> followed by
+                                <span class="text-highlight">badge-quinary</span>. you must also include
+                                <span class="text-highlight">status-num</span> for numbers on icon.
+                                <br>
+                                <span class="text-highlight">badge class is used for positioning you must include it</span>
+                            </p>
+                        </div>
+                        <div class="docs-example flex-row">
+                            <div class="badge">
+                                <a>
+                                    <span class="btn-icon icon"><i class="fas fa-shopping-cart"></i>
+                                    <span class="status status-num">2</span>
+                                    </span>
+                                </a>
+                            </div>
+
+                            <div class="badge">
+                                <span class="badge-quinary"><i class="far fa-heart"></i></span>
+                            </div>
+                        </div>
+                        <div class="docs-code">
+                            <iframe src="https://carbon.now.sh/embed/iPqAeNDRjRhnypnhxCaT" class="code-snippet" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
     </div>
 </body>
