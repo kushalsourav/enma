@@ -85,6 +85,20 @@ body {
     justify-content: center;
 }
 
+
+/*  only for doumentaion */
+
+.btn-float {
+    position: relative;
+}
+
+.badge-quinary {
+    position: relative;
+}
+
+
+/* ------------ */
+
 .flex-column {
     display: flex;
     flex-direction: column;
