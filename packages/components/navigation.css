@@ -8,7 +8,7 @@
     font-size: 2.5rem;
     font-family: monospace;
     font-weight: 400;
-    letter-spacing: 0.04em;
+    letter-spacing: 3px;
     color: var(--color-primary);
 }
 
@@ -17,7 +17,7 @@
 }
 
 .navbar>.form-control>.input {
-    padding: 0.5rem;
+    padding: 8px;
 }
 
 .navbar>.form-control>.input-icon+.input {
