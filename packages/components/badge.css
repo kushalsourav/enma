@@ -101,7 +101,7 @@
 }
 
 .status-online {
-    background-color: green;
+    background-color: var(--color-success);
 }
 
 .status-offline {
