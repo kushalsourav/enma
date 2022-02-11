@@ -62,6 +62,73 @@
             </div>
         </nav>
         <section class="main">
+            <section id="alert">
+                <div class="documentation">
+                    <div class="docs-header">
+                        <div class="docs-title">
+                            <h1>Alert</h1>
+                        </div>
+                        <div class="docs-about">
+                            <p class="text-tertiary">Alerts are used to notify important messages to user.</p>
+                        </div>
+                    </div>
+                    <div class="docs-info">
+                        <div class="docs-type">
+                            <h2 class="">Examples of Alert Bar</h2>
+                        </div>
+                        <div class="docs-explanation">
+                            <p class="text-quaternary">
+                                Alerts are available in 5 formats - success , warning , error , infomation alert and Primary. <br>To use this alert you have to include these classes <span class="text-highlight">alert-success</span> <span class="text-highlight">alert-warning</span>                                <span class="text-highlight">alert-error</span> <span class="text-highlight">alert-info</span> <span class="text-highlight">alert-primary</span>. In <span class="text-highlight">alert-primary</span> - it defines a button
+                                with in it, class is <span class="text-highlight">btn-text</span>. <br> For alert with icons class <span class="text-highlight">alert-icon</span> for positioning and margin.
+                            </p>
+                        </div>
+                        <div class="docs-example flex-column">
+                            <div class="alert alert-primary">
+                                this is an error alert —<button class="btn btn-text">check it out!</button>
+                            </div>
+                            <div class="alert alert-info">
+                                this is an info alert
+                            </div>
+                            <div class="alert alert-error">
+                                <span class="alert-icon"><i class="fas fa-exclamation-circle"></i></span> this is an error alert —
+                            </div>
+                            <div class="alert alert-warning">
+                                <span class="alert-icon"><i class="fas fa-exclamation-triangle"></i></span> this is an error alert —
+                            </div>
+                            <div class="alert alert-success">
+                                <span class="alert-icon"><i class="fas fa-check"></i></span> this is an error alert —
+                            </div>
+
+                        </div>
+                        <div class="docs-code">
+                            <iframe src="https://carbon.now.sh/embed/rlxNTFnYSJg6U1Uah9db" class="code-snippet" sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </div>
+                    </div>
+                    <div class="docs-info">
+                        <div class="docs-type">
+                            <h2 class="">Example of Alert Bar with close button</h2>
+                        </div>
+                        <div class="docs-explanation">
+                            <p class="text-quaternary">
+                                you have add <span class="text-highlight">button</span> element to alert bar and add class <span class="text-highlight">alert-close</span>.
+                            </p>
+                        </div>
+                        <div class="docs-example flex-column">
+                            <div class="alert alert-warning">
+                                <span class="alert-icon"><i class="fas fa-exclamation-triangle"></i></span> this is an error alert — <a>
+                                    check it out!
+                                </a>
+                                <button class="btn btn-text alert-close"><i class="fas fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="docs-code">
+                            <iframe src="https://carbon.now.sh/embed/v4gjyBkr1bgpoSjlbc8s" class="code-snippet" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section id="avatar">
                 <div class="documentation">
                     <div class="docs-header">
@@ -246,6 +313,127 @@
                         </div>
                         <div class="docs-code">
                             <iframe src="https://carbon.now.sh/embed/iPqAeNDRjRhnypnhxCaT" class="code-snippet" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="button">
+                <div class="documentation">
+                    <div class="docs-header">
+                        <div class="docs-title">
+                            <h1>Button</h1>
+                        </div>
+                        <div class="docs-about">
+                            <p class="text-tertiary">Buttons are used on forms, website homepages, dialog boxes, and toolbars. It is important to differentiate between buttons and links. Buttons are used when you want a user to act (submit, cancel, delete) and links are used
+                                to direct users to other pages</p>
+                        </div>
+                    </div>
+                    <div class="docs-info">
+                        <div class="docs-type">
+                            <h2 class="">Examples of Solid Buttons</h2>
+                        </div>
+                        <div class="docs-explanation">
+                            <p class="text-quaternary">
+                                Solid Buttons are available in 3 formats - primary , secondary , tertiary.<br> you have to include these classes
+                                <span class="text-highlight">btn-primary</span>
+                                <span class="text-highlight">btn-secondary</span>
+                                <span class="text-highlight">btn-tertiary</span>
+                                <br> you must include class<span class="text-highlight"> btn</span> and then its variants.
+
+                            </p>
+                        </div>
+                        <div class="docs-example flex-row">
+                            <button class="btn btn-primary">button</button>
+                            <button class="btn btn-secondary">button</button>
+                            <button class="btn btn-tertiary">button</button>
+                        </div>
+                        <div class="docs-code">
+                            <iframe src="https://carbon.now.sh/embed/tIlbppW2gi4mERk6FpzY" class="code-snippet" sandbox="allow-scripts allow-same-origin">
+                          </iframe>
+                        </div>
+                    </div>
+                    <div class="docs-info">
+                        <div class="docs-type">
+                            <h2 class="">Example of Outline Button</h2>
+                        </div>
+                        <div class="docs-explanation">
+                            <p class="text-quaternary">
+                                Add these classes for outline button ---
+                                <span class="text-highlight">btn-primary-outline</span>
+                                <span class="text-highlight">btn-secondary-outline</span>
+                                <span class="text-highlight">btn-tertiary-outline</span>
+                            </p>
+                        </div>
+                        <div class="docs-example flex-row">
+                            <button class="btn btn-primary-outline">button</button>
+                            <button class="btn btn-secondary-outline">button</button>
+                            <button class="btn btn-tertiary-outline">button</button>
+                        </div>
+                        <div class="docs-code">
+                            <iframe src="https://carbon.now.sh/embed/1c5VaS6o3PBgm4Rf5eZ5" class="code-snippet" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="docs-info">
+                        <div class="docs-type">
+                            <h2 class="">Examples of link and icon Button</h2>
+                        </div>
+                        <div class="docs-explanation">
+                            <p class="text-quaternary">
+                                For icon include <span class="text-highlight">btn-icon icon</span> class.
+                                <br> For link include <span class="text-highlight">btn-primary </span> class or other classes inside <span class="text-highlight"> < a class=""></span> tag.
+                            </p>
+                        </div>
+                        <div class="docs-example flex-row">
+                            <button class="btn-icon icon"><i class="fas fa-shopping-cart"></i> 
+                            </button>
+                            <a href="#" class="btn btn-primary">button</a>
+                        </div>
+                        <div class="docs-code">
+                            <iframe src="https://carbon.now.sh/embed/vdlvPFYYckez10iAxE0U" class="code-snippet" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="docs-info">
+                        <div class="docs-type">
+                            <h2 class="">Examples of Floating Buttons</h2>
+                        </div>
+                        <div class="docs-explanation">
+                            <p class="text-quaternary">
+                                For floating buttons include <span class="text-highlight">btn-float </span> class.
+                            </p>
+                        </div>
+                        <div class="docs-example flex-row">
+                            <button class="btn-float">
+                                <span><i class="fas fa-plus"></i></span>
+                            </button>
+                            <button class="btn-float">
+                                <span><i class="fas fa-arrow-up"></i></span>
+                            </button>
+                        </div>
+                        <div class="docs-code">
+                            <iframe src="https://carbon.now.sh/embed/CvaCRSs4o2nUpORP9w9I" class="code-snippet" sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="docs-info">
+                        <div class="docs-type">
+                            <h2 class="">Examples of Buttons variants</h2>
+                        </div>
+                        <div class="docs-explanation">
+                            <p class="text-quaternary">
+                                Buttons have 2 variants --- <span class="text-highlight">large  round  </span>. <br> you have to include classes --
+                                <br> for large--<span class="text-highlight">btn-large</span>
+                                <br> for round <span class="text-highlight">btn btn-round</span>
+                            </p>
+                        </div>
+                        <div class="docs-example flex-row">
+                            <button class="btn btn-primary btn-large">button</button>
+                            <button class="btn btn-primary btn-round">button</button>
+                        </div>
+                        <div class="docs-code">
+                            <iframe src="https://carbon.now.sh/embed/3jz1VmXVURLzXqLjfpnK" class="code-snippet" sandbox="allow-scripts allow-same-origin">
                             </iframe>
                         </div>
                     </div>

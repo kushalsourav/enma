@@ -1,0 +1,49 @@
+.alert {
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 1rem;
+    line-height: 1.6rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    width: 100%;
+    height: 3rem;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.alert-icon {
+    margin-right: 0.625rem;
+    font-size: 1.25rem;
+}
+
+.alert-primary {
+    background-color: var(--color-primary-light);
+    color: var(--color-primary);
+}
+
+.alert-error {
+    background-color: var(--color-danger-light);
+    color: var(--color-danger);
+}
+
+.alert-warning {
+    background-color: var(--color-warning-light);
+    color: var(--color-warning);
+}
+
+.alert-success {
+    background-color: var(--color-success-light);
+    color: var(--color-success);
+}
+
+.alert-info {
+    background-color: var(--color-secondary);
+    color: var(--color-secondary-dark);
+}
+
+.alert-close {
+    position: absolute;
+    right: 0;
+}
