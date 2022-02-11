@@ -1,0 +1,45 @@
+.avatar {
+    border-radius: 50%;
+    position: relative;
+}
+
+.avatar-text {
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+}
+
+.avatar-primary {
+    width: 12.5rem;
+    height: 12.5rem;
+    font-size: 3rem;
+}
+
+.avatar-secondary {
+    width: 9.375rem;
+    height: 9.375rem;
+    font-size: 2rem;
+}
+
+.avatar-tertiary {
+    width: 6.25rem;
+    height: 6.25rem;
+    font-size: 1.5rem;
+}
+
+.avatar-quaternary {
+    width: 3.125rem;
+    height: 3.125rem;
+    font-size: 1rem;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.img-round {
+    border-radius: 50%;
+}

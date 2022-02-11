@@ -1,0 +1,120 @@
+.badge {
+    font-weight: 400;
+    position: relative;
+}
+
+.badge-primary {
+    background-color: var(--color-danger);
+    position: absolute;
+    top: 0;
+    font-size: 1.125rem;
+    padding: 2px 0.5rem;
+    color: var(--color-white);
+    border-radius: 0.625rem;
+}
+
+.badge-secondary {
+    background-color: var(--color-warning);
+    position: absolute;
+    top: 0;
+    font-size: 1rem;
+    padding: 2px 0.5rem;
+    color: var(--color-white);
+    border-radius: 0.625rem;
+}
+
+.badge-tertiary {
+    background-color: var(--color-tertiary);
+    position: absolute;
+    top: 0;
+    font-size: 0.675rem;
+    padding: 2px 0.5rem;
+    color: var(--color-white);
+    border-radius: 0.625rem;
+}
+
+.badge-quinary {
+    position: absolute;
+    top: 0;
+    font-size: 1.125rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background: var(--color-white);
+}
+
+.badge-quinary:hover {
+    color: var(--color-white);
+    background: var(--color-danger);
+}
+
+.badge-round {
+    background-color: var(--color-tertiary);
+    font-size: 1.125rem;
+    padding: 2px 0.5rem;
+    color: var(--color-white);
+    border-radius: 50%;
+}
+
+.badge>.avatar-primary>.status {
+    height: 1.5rem;
+    width: 1.5rem;
+    top: 80%;
+    right: 17%;
+}
+
+.badge>.avatar-secondary>.status {
+    height: 1.25rem;
+    width: 1.25rem;
+    top: 80%;
+    right: 20%;
+}
+
+.badge>.avatar-tertiary>.status {
+    height: 1rem;
+    width: 1rem;
+    top: 80%;
+    right: 20%;
+}
+
+.badge>.avatar-quaternary>.status {
+    height: 0.675rem;
+    width: 0.675rem;
+    top: 70%;
+    right: 10%;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.status-num {
+    background-color: var(--color-danger);
+    color: var(--color-white);
+    font-weight: bolder;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    height: 1rem;
+    width: 1rem;
+    top: 2%;
+    right: -10%;
+    text-align: center;
+}
+
+.status-online {
+    background-color: var(--color-success);
+}
+
+.status-offline {
+    background-color: var(--color-danger);
+}
+
+.status-away {
+    background-color: var(--color-warning);
+}
+
+.status {
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    border: 1px solid var(--color-white);
+}

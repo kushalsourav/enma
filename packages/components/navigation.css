@@ -17,7 +17,7 @@
 }
 
 .navbar>.form-control>.input {
-    padding: 8px;
+    padding: 0.5rem;
 }
 
 .navbar>.form-control>.input-icon+.input {
