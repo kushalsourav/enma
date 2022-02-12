@@ -1,7 +1,7 @@
 .card {
     margin: 0.625rem;
     position: relative;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 3rem 0px;
+    box-shadow: var(--color-dark-a) 0px 7px 3rem 0px;
 }
 
 .card-vertical-md {
@@ -108,7 +108,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 9999;
+    z-index: 10;
 }
 
 .overlay-text {
