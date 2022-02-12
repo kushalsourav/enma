@@ -2,6 +2,7 @@
     margin: 0.625rem;
     position: relative;
     box-shadow: var(--color-dark-a) 0px 7px 3rem 0px;
+    padding: 5px;
 }
 
 .card-vertical-md {
