@@ -2,6 +2,7 @@
 @import 'components/avatar.css';
 @import 'components/badge.css';
 @import 'components/button.css';
+@import 'components/card.css';
 @import 'components/navigation.css';
 @import 'components/typography.css';
 * {
@@ -26,4 +27,6 @@
     --color-highlight: #000def;
     --color-white: #fff;
     --color-dark: #333;
+    --color-primary-a: #0396ffe3;
+    --color-dark-a: rgba(100, 100, 111, 0.2);
 }
