@@ -85,6 +85,10 @@ body {
     justify-content: center;
 }
 
+.docs-explanation ul {
+    padding-left: 1.2rem;
+}
+
 
 /*  only for doumentaion */
 
@@ -131,8 +135,6 @@ body {
     .docs-example {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
     .fixed {
         height: 18.75rem;

@@ -1009,8 +1009,200 @@
                     </div>
                 </div>
             </section>
+            <section id="navigation">
+                <div class="documentation">
+                    <div class="docs-header">
+                        <div class="docs-title">
+                            <h1>Navigation</h1>
+                        </div>
+                        <div class="docs-about">
+                            <p class="text-tertiary">
+                                A navigation bar helps readers in selecting topics, links or sub-topics of their interest.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="docs-info">
+                        <div class="docs-type">
+                            <h2>Example of Default Navigation </h2>
+                        </div>
+                        <div class="docs-explanation">
+                            <p class="text-quaternary">
+                                Default navigation only includes Title, list items and buttons. Also <span class="text-highlight">
+                                    border bottom is defualt for all navbars you can chnage its color and padding
+                                </span>. <br> You have to include the class <span class="text-highlight">navbar</span>. inside Class <span class="text-highlight"> navbar-items</span> you must include your lists , submenus , search form and buttons.
+                                <br>
+                                <ul class="list list-square">
+                                    <li>Navbar has default button to use it include class <span class="text-highlight">navbar-button</span>
+                                    </li>
+                                    <li>for <span class="text-highlight">li</span> include class <span class="text-highlight">navbar-item
+                                    </span>along that if you are including an icon inside <span class="text-highlight">li element</span> use <span class="text-highlight">navbar-icon</span> class within it</li>
+                                    <li>for <span class="text-highlight">a element</span> use class <span class="text-highlight">navbar-link</span></li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="docs-example flex-column">
+                            <nav class="navbar">
+                                <div class="navbar-title">
+                                    enma
+                                </div>
+                                <div class="navbar-items">
+                                    <button class="navbar-button">navbar-button</button>
+                                    <div>
+                                        <ul class="navbar-list">
+                                            <li class="navbar-item navbar-icon">
+                                                <a href="#" class="navbar-link"><i class="fab fa-github"></i></a>
+                                            </li>
+                                            <li class="navbar-item navbar-icon">
+                                                <a href="#" class="navbar-link"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                            <li class="navbar-item navbar-icon">
+                                                <a href="#" class="navbar-link"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn btn-primary">Login</button>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="docs-code">
+                            <iframe src="https://carbon.now.sh/embed/PXzNLNpvXzurXuuVUoal" class="code-snippet" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                        </div>
+                    </div>
+                    <div class="docs-info">
+                        <div class="docs-type">
+                            <h2>Example of Navigation with Submenu </h2>
+                        </div>
+                        <div class="docs-explanation">
+                            <p class="text-quaternary">
+                                Navigation with Submenus is same as default Navbar . you need to include class
+                                <span class="text-highlight">submenu </span> compulsary.
+                            </p>
+                        </div>
+                        <div class="docs-example flex-column">
+                            <nav class="navbar">
+                                <div class="navbar-title">
+                                    enma
+                                </div>
+                                <div class="navbar-items">
+                                    <div class="submenu">
+                                        <button class="navbar-button">submenu</button>
+                                        <div class="submenu-content">
+                                            <ul class="list list-empty">
+                                                <li class="navbar-item">submenu</li>
+                                                <li class="navbar-item">submenu</li>
+                                                <li class="navbar-item">submenu</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <ul class="navbar-list">
+                                            <li class="navbar-item navbar-icon">
+                                                <a href="#" class="navbar-link"><i class="fab fa-github"></i></a>
+                                            </li>
+                                            <li class="navbar-item navbar-icon">
+                                                <a href="#" class="navbar-link"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                            <li class="navbar-item navbar-icon">
+                                                <a href="#" class="navbar-link"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn btn-primary">Login</button>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="docs-code">
+                            <iframe src="https://carbon.now.sh/embed/sgZRugqDAekt7JsBC0Gf" class="code-snippet" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                        </div>
+                    </div>
+                    <div class="docs-info">
+                        <div class="docs-type">
+                            <h2>Example of Navigation with form and avatar </h2>
+                        </div>
+                        <div class="docs-explanation">
+                            <p class="text-quaternary">
+                                Navigation with form includes class <span class="text-highlight">form-control
+                                </span> and form with icon.
+                                <br> For avatar just use the <span class="text-highlight">avatar</span> class components according to size as you want.
+
+                            </p>
+                        </div>
+                        <div class="docs-example flex-column">
+                            <nav class="navbar">
+                                <div class="navbar-title">
+                                    <div class="avatar avatar-quaternary">
+                                        <img src="./docs/assets/avatar.png" alt="avatar-quaternary" class="img-responsive img-round">
+                                    </div>
+                                    enma
+                                </div>
+                                <div class="navbar-items">
+                                    <div class="form-control">
+                                        <span class="input-icon"><i class="fas fa-search"></i></span>
+                                        <input type="text" placeholder="search here" class="input">
+                                    </div>
+                                    <div>
+                                        <ul class="navbar-list">
+                                            <li class="navbar-item navbar-icon">
+                                                <a href="#" class="navbar-link"><i class="fab fa-github"></i></a>
+                                            </li>
+                                            <li class="navbar-item navbar-icon">
+                                                <a href="#" class="navbar-link"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                            <li class="navbar-item navbar-icon">
+                                                <a href="#" class="navbar-link"><i class="fab fa-twitter"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn btn-primary">Login</button>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="docs-code">
+                            <iframe src="https://carbon.now.sh/embed/g66sAZ9R3i75jlIEDFxm" class="code-snippet" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="modal">
+                <div class="documentation">
+                    <div class="docs-header">
+                        <div class="docs-title">
+                            <h1>Modal</h1>
+                        </div>
+                        <div class="docs-about">
+                            <p class="text-tertiary">
+                                Modals are often used to direct users' attention to an important action or piece of information on a website or application.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="docs-info">
+                        <div class="docs-type">
+                            <h2>Example of Modal </h2>
+                        </div>
+                        <div class="docs-explanation">
+                            <p class="text-quaternary">
+                                You need to copy the code and use.
+                            </p>
+                        </div>
+                        <div class="docs-example flex-column">
+                            <div id="modal" class="modal">
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p class="text-quaternary">This is modal</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="docs-code">
+                            <iframe src="https://carbon.now.sh/embed/ZIrR58bKCxCkzTD5hwTS" class="code-snippet" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                        </div>
+                    </div>
+            </section>
         </section>
-    </div>
+        </div>
 </body>
 
 </html>
