@@ -12,12 +12,15 @@
     padding: 1.25rem;
     border: 1px solid var(--color-secondary-dark);
     width: 80%;
+    position: relative;
 }
 
-.close {
-    color: var(--color-primary);
-    float: right;
-    padding: 0;
-    font-size: 1.8rem;
+.modal-close {
+    color: var(--color-secondary-dark);
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    font-size: 2rem;
     font-weight: bold;
+    cursor: pointer;
 }

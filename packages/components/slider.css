@@ -1,0 +1,24 @@
+.slider {
+    appearance: none;
+    height: 3px;
+    background: var(--color-secondary);
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background: var(--color-secondary-dark);
+}
+
+.slidecontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.625rem;
+}
