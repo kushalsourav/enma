@@ -1,0 +1,17 @@
+.toast {
+    width: 18.75rem;
+    padding: 0.75rem;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    text-align: center;
+}
+
+.toast-warning {
+    background-color: var(--color-danger);
+    width: 18.75rem;
+}
+
+.toast-success {
+    background-color: var(--color-success);
+    width: 18.75rem;
+}

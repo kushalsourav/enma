@@ -1,0 +1,7 @@
+.rating {
+    padding: 5px;
+}
+
+.rated {
+    color: var(--color-warning);
+}
