@@ -23,7 +23,22 @@
     gap: 0.625rem;
 }
 
+.grid-2-8 {
+    grid-template-columns: 20% auto;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.grid-8-2 {
+    grid-template-columns: auto 20%;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
 @media (max-width:500px) {
+    .grid {
+        justify-content: center;
+    }
     .grid-1-2 {
         grid-template-columns: auto;
         grid-template-rows: 1fr 1fr;
@@ -39,5 +54,15 @@
         grid-template-rows: 1fr 1fr 1fr 1fr;
         justify-content: center;
         gap: 0.625rem;
+    }
+    .grid-8-2 {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 10px;
+    }
+    .grid-2-8 {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 10px;
     }
 }
