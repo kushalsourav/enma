@@ -160,4 +160,10 @@ body {
     .grid-1-4 {
         grid-template-columns: 1fr;
     }
+    .grid-2-3 {
+        grid-template-columns: 1fr;
+    }
+    .grid-3-2 {
+        grid-template-columns: 1fr;
+    }
 }
