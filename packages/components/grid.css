@@ -50,7 +50,7 @@
         grid-template-rows: auto;
     }
     .grid-1-4 {
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         justify-content: center;
         gap: 0.625rem;

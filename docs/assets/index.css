@@ -14,6 +14,14 @@ body {
     grid-template-areas: "nav nav nav nav" "main main main main" "main main main main" "main main main main";
 }
 
+.container>.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--color-white);
+    z-index: 3;
+}
+
 .navbar {
     grid-area: nav;
     border-bottom: 2px solid var(--color-primary);
@@ -89,6 +97,20 @@ body {
     padding-left: 1.2rem;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.docs-code {
+    margin-top: 3rem;
+    width: 100%;
+    padding: 1.2rem;
+    height: auto;
+    border: 1px solid var(--color-primary);
+}
+
 
 /*  only for doumentaion */
 
@@ -106,20 +128,6 @@ body {
 
 
 /* ------------ */
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-    gap: 1.25rem;
-}
-
-.docs-code {
-    margin-top: 3rem;
-    width: 100%;
-    padding: 1.2rem;
-    height: auto;
-    border: 1px solid var(--color-primary);
-}
 
 .grid-content {
     position: relative;
@@ -154,6 +162,9 @@ body {
     .fixed {
         height: 18.75rem;
     }
+    .grid-1-2 {
+        grid-template-columns: 1fr;
+    }
     .grid-1-3 {
         grid-template-columns: 1fr;
     }
@@ -165,5 +176,8 @@ body {
     }
     .grid-8-2 {
         grid-template-columns: 1fr;
+    }
+    .docs-example .navbar-button {
+        display: none;
     }
 }
