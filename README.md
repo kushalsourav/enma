@@ -44,7 +44,6 @@ Copy the below link
 </body>
 
 </html>
-}
 ```
 
 
