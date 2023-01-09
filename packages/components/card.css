@@ -23,7 +23,7 @@
     height: 25rem;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto auto 1fr;
+    grid-template-rows: auto auto auto auto;
     position: relative;
 }
 
@@ -153,6 +153,17 @@
 
 .card-body {
     padding: 0.625rem;
+}
+@media (max-width: 768px){
+    .card-horizontal-lg>.card-img {
+        height: 18.75rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+.card-horizontal-lg>.card-links {
+   width: 100%;
+}
 }
 
 @media (max-width: 480px) {
