@@ -8,8 +8,8 @@
     width: 21.875rem;
     height: 26.25rem;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
     position: relative;
 }
 
@@ -22,8 +22,8 @@
     width: 18.75rem;
     height: 25rem;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto 1fr;
     position: relative;
 }
 
@@ -36,7 +36,7 @@
     width: 34.375rem;
     height: 18.75rem;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
     grid-template-columns: 15.625rem 18.75rem;
     z-index: 1;
     position: relative;
@@ -122,8 +122,8 @@
     width: 31.25rem;
     height: 12.5rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
     position: relative;
 }
 
@@ -155,11 +155,11 @@
     padding: 0.625rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
     .card-horizontal-lg {
         width: 25rem;
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
         grid-template-columns: 9.375rem 15.625rem;
     }
     .card-horizontal-lg>.card-img {
@@ -169,10 +169,21 @@
         width: 25rem;
         height: 15.625rem;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
     }
     .card-horizontal>.card-img {
         height: 15.625rem;
+    }
+}
+@media (max-width: 1024px) {
+    .card-vertical-sm {
+        width: 15rem ;
+    }
+    .card-vertical-sm>.card-img {
+        width: auto;
+    }.card-title {
+        font-size: 12px;
+        line-height: 14px;
     }
 }
