@@ -100,3 +100,41 @@
         display: none;
     }
 }
+@media (max-width: 480px) {
+    .nav-form {
+        display: none ;
+    }
+}
+@media (max-width : 640px) {
+    .navbar {
+        gap: 1rem;
+    }
+    .navbar-title {
+        font-size: 1.5rem ;
+    }
+    .nav-form {
+        width: 10rem ;
+    }
+    .btn {
+        font-size: 12px ;
+    }
+}
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 0 1.5rem;
+        font-size: 14px;
+        justify-content: space-around ;
+    }
+    .navbar-links {
+        display: none;
+    }
+    .navbar-list {
+        margin: 0 10px;
+    }
+    .icon {
+        font-size: 1.7rem;
+    }
+    .btn {
+        padding: 6px 1rem;
+    }
+}
